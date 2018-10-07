@@ -7,9 +7,11 @@ public class HelloWorld {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
-        System.out.println("Hello World, what is your favorite movie?");
+        System.out.println("Enter a number 0-9 and I will tell you your fortune...");
+        
+        int userInput = input.nextInt();
         
         
-    }
-    
+  
+    }    
 }
