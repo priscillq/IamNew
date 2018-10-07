@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+package helloworld;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Hello World, what is your favorite movie?");
+        
+        
+    }
+    
+}
